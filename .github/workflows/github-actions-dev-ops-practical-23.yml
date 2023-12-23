@@ -7,7 +7,7 @@ jobs:
         steps:
           - name: Lint rule checks
             run: |
-              arch -x86_64 pod install --repo-update
+              pod install --repo-update
               Pods/SwiftLint/swiftlint DevOpsPractical24
           - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
           - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"

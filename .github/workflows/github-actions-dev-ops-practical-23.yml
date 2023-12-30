@@ -8,6 +8,7 @@ jobs:
     steps:
          run: |
           ls -al
+          sudo gem install cocoapods
           pod install --repo-update
           ls -al
           Pods/SwiftLint/swiftlint DevOpsPractical24

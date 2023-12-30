@@ -6,7 +6,7 @@ jobs:
     name: Swiftlint
     runs-on: macOS-latest
     steps:
-         - run: 
+         - run: |
             sudo gem install cocoapods
             pod install --repo-update
             Pods/SwiftLint/swiftlint DevOpsPractical24

@@ -21,14 +21,10 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/cp-ishita-g/practical-23-university-directory-app.git
+git remote add origin https://github.com/cp-divyesh-v/DevOpsPractical-23.git
 git branch -M main
 git push -uf origin main
 ```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/cp-ishita-g/practical-23-university-directory-app/-/settings/integrations)
 
 ## Collaborate with your team
 
